@@ -11,4 +11,4 @@ This is experimental PMC-Tenant-Updater utility writen in Python3.7
 
 # Run
 
-This is Azure Function trigered by WebHook from ADO release.
+This is Docker container trigered by WebHook from ADO release.
