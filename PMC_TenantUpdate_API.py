@@ -5,13 +5,13 @@ import sys
 
 client_id = ''
 client_secret = ''
-pmc_url = 'https://pmc.beqom.com/'
-pmc_tm_url = 'https://pmctm.beqom.com/'
+pmc_url = 'https://pmc/'
+pmc_tm_url = 'https://pmctm/'
 service_id = sys.argv[1]
 timeOut = 450
 
 def get_token(client_id, client_secret):
-    return requests.post('https://passport.beqom.com/api/auth', json={
+    return requests.post('https://passport/api/auth', json={
         'client_id': client_id,
         'client_secret': client_secret,
         })
